@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+body{
+    max-width: 800px;
+    margin: 0 auto;
+    border: 2px solid blue;
+}
+header, section{
+    padding: 50px;
+    background: #FFE600;
+    color: #000;
+}
+h1{
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+}
+h2{
+    font-size: 20px;
+    font-weight: bold;
+}
+.section-one{
+    background: black;
+    color: white;
+}
+.section-two{
+    background: white;
+    color: #000;
+}
+
+.btn{
+   display: inline-block;
+   padding: 14px 28px;
+   margin: 5px;
+   font-size: 20px;
+   text-decoration: none;
+   font-weight: bold;
+}
+
+.btn-accent{
+    color: #000;
+    background: #FFE600;
+}
+.btn-accent:hover{
+    color: #000;
+    background: white;
+}
+
+.btn-dark{
+    color: #ffe600;
+    background: #000;
+}
+
+.btn-dark:hover{
+    color: #000;
+    background: #FFE600;
+}
